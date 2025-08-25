@@ -1,0 +1,26 @@
+# Muing Core Dependencies - Codespaces Compatible
+# Audio Processing
+librosa==0.10.1
+soundfile==0.12.1
+pretty_midi==0.2.10
+
+# Web Interface
+streamlit==1.28.0
+
+# ML/AI - 최신 버전 사용
+torch>=2.2.0
+torchaudio>=2.2.0
+numpy>=1.24.0
+
+# Demucs는 별도 설치 (의존성 충돌 방지)
+# demucs는 pip install demucs로 별도 설치
+
+# Utilities
+python-dotenv==1.0.0
+requests==2.31.0
+tqdm==4.66.1
+yt-dlp==2024.10.7  # pytube 대신 더 안정적
+
+# Development
+pytest==7.4.3
+black==23.11.0
